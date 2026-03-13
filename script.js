@@ -10,3 +10,12 @@ const allData = {
     interview: 0,
     rejected: 0,
 }
+
+const buttons = document.querySelectorAll("header-btn");
+buttons.forEach(button => {
+    button.addEventListener('click', () => {
+        button.forEach(btn => btn.classList.remove('active'));
+        const value = button.getAttribute('data-btn');
+        console.log('Filtering by: ${value}')
+        });
+    });
