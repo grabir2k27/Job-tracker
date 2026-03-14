@@ -27,8 +27,8 @@ document.querySelector('.delete-btn').addEventListener('click', function(){
     }
 });
 
-const interviewBtn = document.querySelector('.action-btn.interview');
-const statusBadge = document.querySelector('.status-badge');
+const interviewBtn1 = document.querySelector('.action-btn.interview');
+const statusBadge1 = document.querySelector('.status-badge');
 
 interviewBtn.addEventListener('click' , () => {
     ststusBadge.textContent = 'INTERVIEW';
@@ -41,8 +41,8 @@ document.querySelector('.delete-btn').addEventListener('click', function(){
     }
 });
 
-const interviewBtn = document.querySelector('.action-btn.interview');
-const statusBadge = document.querySelector('.status-badge');
+const interviewBtn2 = document.querySelector('.action-btn.interview');
+const statusBadge2 = document.querySelector('.status-badge');
 
 interviewBtn.addEventListener('click' , () => {
     ststusBadge.textContent = 'INTERVIEW';
@@ -55,8 +55,8 @@ document.querySelector('.delete-btn').addEventListener('click', function(){
     }
 });
 
-const interviewBtn = document.querySelector('.action-btn.interview');
-const statusBadge = document.querySelector('.status-badge');
+const interviewBtn3 = document.querySelector('.action-btn.interview');
+const statusBadge3 = document.querySelector('.status-badge');
 
 interviewBtn.addEventListener('click' , () => {
     ststusBadge.textContent = 'INTERVIEW';
@@ -69,11 +69,45 @@ document.querySelector('.delete-btn').addEventListener('click', function(){
     }
 });
 
-const interviewBtn = document.querySelector('.action-btn.interview');
-const statusBadge = document.querySelector('.status-badge');
+const interviewBtn4 = document.querySelector('.action-btn.interview');
+const statusBadge4 = document.querySelector('.status-badge');
 
 interviewBtn.addEventListener('click' , () => {
     ststusBadge.textContent = 'INTERVIEW';
     ststusBadge.style.backround = '#e6fffa'; 
     statusBadge.style.color = '#2ecc71';
+});
+
+document.querySelector('.delete-btn').addEventListener('click', function(){
+    if(confirm('Are you sure you want to remove this job?')){
+        this.closest('.job-card').remove();
+    }
+});
+const interviewBtn5 = document.querySelector('.action-btn.interview');
+const statusBadge5 = document.querySelector('.status-badge');
+
+interviewBtn.addEventListener('click' , () => {
+    ststusBadge.textContent = 'INTERVIEW';
+    ststusBadge.style.backround = '#e6fffa'; 
+    statusBadge.style.color = '#2ecc71';
+});
+
+document.querySelector('.delete-btn').addEventListener('click', function(){
+    if(confirm('Are you sure you want to remove this job?')){
+        this.closest('.job-card').remove();
+    }
+});
+const interviewBtn6 = document.querySelector('.action-btn.interview');
+const statusBadge6 = document.querySelector('.status-badge');
+
+interviewBtn.addEventListener('click' , () => {
+    ststusBadge.textContent = 'INTERVIEW';
+    ststusBadge.style.backround = '#e6fffa'; 
+    statusBadge.style.color = '#2ecc71';
+});
+
+document.querySelector('.delete-btn').addEventListener('click', function(){
+    if(confirm('Are you sure you want to remove this job?')){
+        this.closest('.job-card').remove();
+    }
 });
