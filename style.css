@@ -81,3 +81,77 @@ h2 {
     color: white;
     border-color: #4285f4;
 }
+
+
+.job-card {
+    border: 1px solid #e0e6ed;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    background: #fff;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.company-name {
+    color: #003366;
+    margin: 0;
+    font-size: 1.1rem;
+}
+.job-title {
+    color: #7f8c8d;
+    margin: 8px 0px;
+    font-size: 0.9rem;
+}
+
+.job-meta {
+    font-size: 0.85rem;
+    color: #95a5a6;
+    margin-bottom: 12px;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    background: #ebf2ff;
+    color: #3b5998;
+    margin-bottom: 14px;
+}
+
+.description {
+    font-size: 0.9rem;
+    color: #444;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.card-actions {
+    display: flex;
+    gap: 9px;
+}
+
+.action-btn {
+    padding: 8px 14px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    background: white;
+}
+
+.action-btn.interview {
+    border: 1px solid #2ecc71;
+    color: #2ecc71;
+}
+
+.action-btn.rejected {
+     border: 1px solid #e74c3c;
+    color: #e74c3c;
+}
